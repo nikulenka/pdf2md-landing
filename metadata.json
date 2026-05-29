@@ -1,0 +1,8 @@
+{
+  "name": "pdf2md Landing Page",
+  "description": "A stylish, dark-themed landing page for the pdf2md Telegram bot, converting PDFs to Markdown effortlessly.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
