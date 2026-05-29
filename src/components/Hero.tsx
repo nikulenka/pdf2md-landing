@@ -55,10 +55,13 @@ export default function Hero() {
             href="https://github.com/nikulenka/pdf2md"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex h-12 items-center justify-center gap-2 rounded-full border border-zinc-700 bg-zinc-900/50 px-8 text-sm font-semibold text-white transition-all hover:bg-zinc-800"
+            className="flex h-12 flex-col items-center justify-center gap-0.5 rounded-full border border-zinc-700 bg-zinc-900/50 px-8 text-sm font-semibold text-white transition-all hover:bg-zinc-800"
           >
-            <FileText size={18} />
-            View Source on GitHub
+            <div className="flex items-center gap-2">
+              <FileText size={16} />
+              <span>Source on GitHub</span>
+            </div>
+            <span className="text-[10px] text-zinc-400 font-normal leading-none tracking-wide">ACCESS ON REQUEST</span>
           </a>
         </motion.div>
 
