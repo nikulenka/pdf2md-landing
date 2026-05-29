@@ -1,5 +1,6 @@
 import { motion } from 'motion/react';
 import { FileText, ArrowRight, Bot } from 'lucide-react';
+import heroImg from '../assets/images/hero_doc_scan_1780083452227.png';
 
 export default function Hero() {
   return (
@@ -73,7 +74,7 @@ export default function Hero() {
         >
           <div className="absolute inset-0 bg-gradient-to-t from-zinc-950 via-zinc-950/10 to-transparent pointer-events-none z-10" />
           <img 
-            src="/src/assets/images/hero_doc_scan_1780083452227.png" 
+            src={heroImg} 
             alt="Futuristic PDF to Markdown conversion process" 
             className="w-full h-auto object-cover transform transition-transform duration-700 group-hover:scale-105"
           />

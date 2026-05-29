@@ -1,5 +1,6 @@
 import { motion } from 'motion/react';
 import { Zap, Layout, Shield, FileDown } from 'lucide-react';
+import nodesImg from '../assets/images/markdown_nodes_1780083471093.png';
 
 const features = [
   {
@@ -77,7 +78,7 @@ export default function Features() {
               </div>
               <div className="relative h-64 lg:h-auto overflow-hidden">
                 <img 
-                  src="/src/assets/images/markdown_nodes_1780083471093.png" 
+                  src={nodesImg} 
                   alt="Markdown structure nodes" 
                   className="absolute inset-0 h-full w-full object-cover"
                 />
